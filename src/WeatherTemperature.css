@@ -1,0 +1,11 @@
+.unit {
+  font-weight: bold;
+}
+.unit a {
+  font-weight: normal;
+}
+
+.unit a:hover {
+  cursor: pointer;
+  color: blueviolet;
+}

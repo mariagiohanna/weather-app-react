@@ -1,3 +1,25 @@
+:root {
+  --gradient-gray: linear-gradient(
+    to bottom right,
+    #e7eaf6,
+    #a2a8d3,
+    #38598b,
+    #113f67
+  );
+  --gradient-orange: linear-gradient(
+    to bottom left,
+    #fda403,
+    #e8751a,
+    #c51350,
+    #8a1253
+  );
+  --paragraph-day: #ff6680;
+  --paragraph-night: #a2a8d3;
+  --principal-header-day: #ff6680;
+  --principal-header-night: #e7eaf6;
+  --secondary-header-day: #38598b;
+  --secondary-header-night: #38598b;
+}
 .App {
   text-align: center;
 }
@@ -14,7 +36,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: var(--gradient-orange);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,10 +46,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +53,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* FOOTER */
+footer p {
+  font-size: 1rem;
+}
+footer a {
+  color: #61dafb;
+  text-decoration: none;
+}
+footer a:hover {
+  font-weight: bold;
 }
