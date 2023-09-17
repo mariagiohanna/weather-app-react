@@ -17,9 +17,9 @@ export default function WeatherTemperature(props) {
         <span className="temperature">{Math.round(props.celsius)}</span>
         <span className="unit mb-auto">
           °C |{" "}
-          <a href="#" onClick={convert2Fa}>
+          <button onClick={convert2Fa} className="DegreesConverter">
             °F
-          </a>
+          </button>
         </span>
       </div>
     );
@@ -30,9 +30,9 @@ export default function WeatherTemperature(props) {
         <span className="temperature">{Math.round(fahren)}</span>
         <span className="unit mb-auto">
           °F |{" "}
-          <a href="#" onClick={convert2C}>
+          <button onClick={convert2C} className="DegreesConverter">
             °C
-          </a>
+          </button>
         </span>
       </div>
     );

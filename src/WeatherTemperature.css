@@ -1,11 +1,15 @@
 .unit {
   font-weight: bold;
 }
-.unit a {
-  font-weight: normal;
-}
 
-.unit a:hover {
-  cursor: pointer;
+.DegreesConverter {
+  background: none;
+  border: none;
+}
+.DegreesConverter:hover {
   color: blueviolet;
+  font-weight: bold;
+}
+.unit div {
+  margin: 0.5rem;
 }
