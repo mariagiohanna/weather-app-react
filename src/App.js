@@ -1,6 +1,5 @@
 import "./App.css";
 import Weather from "./Weather";
-import GradientBackground from "./GradientBackground";
 
 function App() {
   return (

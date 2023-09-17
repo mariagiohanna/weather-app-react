@@ -2,8 +2,6 @@ import React from "react";
 import ReactAnimatedWeather from "react-animated-weather";
 
 export default function WeatherIcon(props) {
-  const { weatherdescription } = props.weatherdescription; // Corregido: Desestructurar props correctamente
-
   const AnimatedIcon = {
     "clear-sky-day": "CLEAR_DAY",
     "clear-sky-night": "CLEAR_NIGHT",
