@@ -29,7 +29,8 @@ export default function Weather(props) {
       icon.includes("shower-rain") ||
       icon.includes("rain") ||
       icon.includes("thunderstorm") ||
-      icon.includes("scattered-clouds")
+      icon.includes("scattered-clouds") ||
+      icon.includes("broken-clouds")
     ) {
       newBackground = `linear-gradient(to bottom right, rgba(231, 234, 246, ${opacity}), rgba(17, 63, 103, ${opacity}))`;
       newHeaderColor = "black";
