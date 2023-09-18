@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1 style={{ padding: "2rem" }}>Weather App</h1>
+        <h1 style={{ padding: "1rem" }}>Weather App</h1>
         <Weather defaultCity="Asuncion" />
-        <footer className="fixed-bottom">
+        <footer className="footer">
           <p>
             Coded by Giohanna. Open-sourced on{" "}
             <a href="https://github.com/mariagiohanna/weather-app-react">
