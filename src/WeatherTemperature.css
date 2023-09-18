@@ -1,15 +1,15 @@
-.unit {
+.WeatherTemperature {
+  margin-left: 1rem;
+}
+.WeatherTemperature .unit {
   font-weight: bold;
 }
 
-.DegreesConverter {
+.WeatherTemperature .DegreesConverter {
   background: none;
   border: none;
 }
-.DegreesConverter:hover {
+.WeatherTemperature .DegreesConverter:hover {
   color: blueviolet;
   font-weight: bold;
-}
-.unit div {
-  margin: 0.5rem;
 }

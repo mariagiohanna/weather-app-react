@@ -1,0 +1,14 @@
+.WeatherForecast {
+  margin-top: 2rem;
+  text-align: center;
+  background-color: rgb(255, 253, 227);
+  border-radius: 2rem;
+  padding: 1rem;
+}
+.WeatherForecast .MinForecast {
+  opacity: 0.7;
+  margin-right: 0.5rem;
+}
+.WeatherForecast .MaxForecast {
+  margin-left: 0.5rem;
+}
